@@ -7,9 +7,18 @@ using System.Threading.Tasks;
 namespace Merkkijonot_ohj_jatko_pv03_esim01
 {
     class Program
-    {
+    {/// <summary>
+    ///  Tämä on XML kommentointilohko, joka voidaan kerätä erilliseen XML-tiedostoon
+    ///  On olemassa dokumentointityövälineitä, jotka osaavat lukea tämän ja muodostaa dokumentaation
+    /// </summary>
+    /// <param name="args"></param>
+
+
         static void Main(string[] args)
         {
+            //throw new ApplicationException("Pöö");  (Ctrl+F5 eli Start without debugging = 
+            // sovellus ajetaan kuin se ajettaisiin käyttiksen kautta eli suoritetaan exe-tiedosto.
+
             //huono tapa, raskas roskien keräyksen mielessä.
             //string s = "ABC";
             //for (int i = 0; i < 100000; i++)
